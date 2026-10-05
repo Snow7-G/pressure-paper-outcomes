@@ -1,0 +1,400 @@
+{
+  "definition": {
+    "cues": [
+      "没有可靠资料",
+      "无法",
+      "不足以回答"
+    ],
+    "windows": [
+      60,
+      150,
+      "full"
+    ]
+  },
+  "bootstrap": {
+    "seed": 20261005,
+    "resamples": 20000,
+    "unit": "question within a fixed model and domain",
+    "interval": "2.5th and 97.5th percentiles"
+  },
+  "rounds": {
+    "confirm": {
+      "models": {
+        "GLM": {
+          "60": {
+            "neutral": [
+              8,
+              40
+            ],
+            "answer_seeking": [
+              38,
+              60
+            ]
+          },
+          "150": {
+            "neutral": [
+              9,
+              40
+            ],
+            "answer_seeking": [
+              47,
+              60
+            ]
+          },
+          "full": {
+            "neutral": [
+              9,
+              40
+            ],
+            "answer_seeking": [
+              49,
+              60
+            ]
+          },
+          "difference_60": 0.43333333333333324,
+          "question_bootstrap_95": [
+            0.24999999999999994,
+            0.6083333333333332
+          ]
+        },
+        "DS41": {
+          "60": {
+            "neutral": [
+              5,
+              40
+            ],
+            "answer_seeking": [
+              40,
+              60
+            ]
+          },
+          "150": {
+            "neutral": [
+              6,
+              40
+            ],
+            "answer_seeking": [
+              43,
+              60
+            ]
+          },
+          "full": {
+            "neutral": [
+              6,
+              40
+            ],
+            "answer_seeking": [
+              45,
+              60
+            ]
+          },
+          "difference_60": 0.5416666666666667,
+          "question_bootstrap_95": [
+            0.3416666666666666,
+            0.7166666666666666
+          ]
+        },
+        "QWMAX": {
+          "60": {
+            "neutral": [
+              0,
+              40
+            ],
+            "answer_seeking": [
+              14,
+              60
+            ]
+          },
+          "150": {
+            "neutral": [
+              0,
+              40
+            ],
+            "answer_seeking": [
+              14,
+              60
+            ]
+          },
+          "full": {
+            "neutral": [
+              0,
+              40
+            ],
+            "answer_seeking": [
+              14,
+              60
+            ]
+          },
+          "difference_60": 0.2333333333333333,
+          "question_bootstrap_95": [
+            0.1,
+            0.3833333333333333
+          ]
+        },
+        "MIMO": {
+          "60": {
+            "neutral": [
+              5,
+              40
+            ],
+            "answer_seeking": [
+              27,
+              60
+            ]
+          },
+          "150": {
+            "neutral": [
+              5,
+              40
+            ],
+            "answer_seeking": [
+              31,
+              60
+            ]
+          },
+          "full": {
+            "neutral": [
+              5,
+              40
+            ],
+            "answer_seeking": [
+              34,
+              60
+            ]
+          },
+          "difference_60": 0.325,
+          "question_bootstrap_95": [
+            0.1833333333333333,
+            0.4833333333333332
+          ]
+        },
+        "MUSE": {
+          "60": {
+            "neutral": [
+              0,
+              40
+            ],
+            "answer_seeking": [
+              13,
+              60
+            ]
+          },
+          "150": {
+            "neutral": [
+              0,
+              40
+            ],
+            "answer_seeking": [
+              13,
+              60
+            ]
+          },
+          "full": {
+            "neutral": [
+              0,
+              40
+            ],
+            "answer_seeking": [
+              13,
+              60
+            ]
+          },
+          "difference_60": 0.21666666666666665,
+          "question_bootstrap_95": [
+            0.13333333333333333,
+            0.29999999999999993
+          ]
+        }
+      },
+      "aggregate": {
+        "60": {
+          "neutral": [
+            18,
+            200
+          ],
+          "answer_seeking": [
+            132,
+            300
+          ]
+        },
+        "150": {
+          "neutral": [
+            20,
+            200
+          ],
+          "answer_seeking": [
+            148,
+            300
+          ]
+        },
+        "full": {
+          "neutral": [
+            20,
+            200
+          ],
+          "answer_seeking": [
+            155,
+            300
+          ]
+        },
+        "difference_60": 0.35,
+        "question_bootstrap_95": [
+          0.2816666666666666,
+          0.4183333333333333
+        ]
+      }
+    },
+    "d2": {
+      "models": {
+        "GLM": {
+          "60": {
+            "neutral": [
+              3,
+              40
+            ],
+            "answer_seeking": [
+              36,
+              60
+            ]
+          },
+          "150": {
+            "neutral": [
+              3,
+              40
+            ],
+            "answer_seeking": [
+              41,
+              60
+            ]
+          },
+          "full": {
+            "neutral": [
+              3,
+              40
+            ],
+            "answer_seeking": [
+              41,
+              60
+            ]
+          },
+          "difference_60": 0.525,
+          "question_bootstrap_95": [
+            0.38333333333333336,
+            0.6666666666666666
+          ]
+        },
+        "DS41": {
+          "60": {
+            "neutral": [
+              6,
+              40
+            ],
+            "answer_seeking": [
+              46,
+              60
+            ]
+          },
+          "150": {
+            "neutral": [
+              6,
+              40
+            ],
+            "answer_seeking": [
+              47,
+              60
+            ]
+          },
+          "full": {
+            "neutral": [
+              6,
+              40
+            ],
+            "answer_seeking": [
+              47,
+              60
+            ]
+          },
+          "difference_60": 0.6166666666666666,
+          "question_bootstrap_95": [
+            0.4583333333333333,
+            0.7666666666666666
+          ]
+        },
+        "MIMO": {
+          "60": {
+            "neutral": [
+              1,
+              40
+            ],
+            "answer_seeking": [
+              11,
+              60
+            ]
+          },
+          "150": {
+            "neutral": [
+              1,
+              40
+            ],
+            "answer_seeking": [
+              12,
+              60
+            ]
+          },
+          "full": {
+            "neutral": [
+              1,
+              40
+            ],
+            "answer_seeking": [
+              12,
+              60
+            ]
+          },
+          "difference_60": 0.15833333333333333,
+          "question_bootstrap_95": [
+            0.05833333333333333,
+            0.26666666666666666
+          ]
+        }
+      },
+      "aggregate": {
+        "60": {
+          "neutral": [
+            10,
+            120
+          ],
+          "answer_seeking": [
+            93,
+            180
+          ]
+        },
+        "150": {
+          "neutral": [
+            10,
+            120
+          ],
+          "answer_seeking": [
+            100,
+            180
+          ]
+        },
+        "full": {
+          "neutral": [
+            10,
+            120
+          ],
+          "answer_seeking": [
+            100,
+            180
+          ]
+        },
+        "difference_60": 0.4333333333333333,
+        "question_bootstrap_95": [
+          0.35555555555555557,
+          0.5111111111111111
+        ]
+      }
+    }
+  }
+}
