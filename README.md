@@ -1,6 +1,6 @@
 # Grounded refusal: derived hard-question outcomes
 
-This repository accompanies the preprint **“Task Instructions and Grounded Refusal: Changes in Automatically Classified Answer Forms Across Two Knowledge-Base QA Tasks”** by Elio Guo. It contains the 800 text-free, hard out-of-knowledge-base outcome rows used for the manuscript's main neutral-versus-answer-seeking comparisons.
+This repository accompanies the preprint **“Task Instructions and Grounded Refusal: Changes in Automatically Classified Answer Forms Across Two Knowledge-Base QA Tasks”** by Fengjia Guo. It contains the 800 text-free, hard out-of-knowledge-base outcome rows used for the manuscript's main neutral-versus-answer-seeking comparisons.
 
 ## Files
 
