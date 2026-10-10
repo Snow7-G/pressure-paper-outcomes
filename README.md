@@ -16,3 +16,14 @@ Run `python -m pip install numpy` and then `python recompute_preprint.py`. The s
 | Car maintenance | 10/120 | 93/180 |
 
 The table has no raw model responses, visible reasoning traces, user records, credentials, or verified per-run timestamps or endpoint snapshot hashes. It reproduces the reported outcome counts and bootstrap intervals, but cannot independently verify the original response texts, cue matching, or model behavior. The gray-band label is a post-collection output-form heuristic, not a human-confirmed unsupported answer. The instruction conditions ran in a fixed order and differed in answer-detail requests as well as motivational wording; these data do not identify an independent causal pressure effect.
+
+## Release package (2026-10-10)
+
+A fuller research release now accompanies this repository — see [RELEASE-PACKAGE.md](RELEASE-PACKAGE.md):
+
+- **`answers/`** — answer **texts** for all 1,440 hard out-of-knowledge-base runs (both domains), keyed to `HARD-OUTCOMES.csv`. Reasoning traces are not included.
+- **`scripts/`** — all experiment scripts (four rounds), the deterministic judge, the adjudication audit tooling, and the three-category rebuild script.
+- **`materials/`** — full instruction texts (3 answer-seeking / 3 caution variants, 2 neutral), both knowledge bases, and both 52-question sets.
+- **`adjudication/`** — the 445-case adjudication records: 150+82 author anchor labels, blinded model-judge labels, and the arbitration report.
+
+Join semantics, sanitization report, and provider-terms notes are documented in [RELEASE-PACKAGE.md](RELEASE-PACKAGE.md).
