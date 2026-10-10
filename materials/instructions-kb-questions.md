@@ -272,7 +272,7 @@ For the 60-code-point rule, question-level percentile bootstrap intervals resamp
 | Car maintenance | DS41 | 61.7 | 45.8 to 76.7 | <.001 |
 | Car maintenance | MIMO | 15.8 | 5.8 to 26.7 | 0.0237 |
 
-The public derived-outcome repository at https://github.com/Snow7-G/pressure-paper-outcomes/tree/cede7d41d1310d9c4ae7fe867b7d705fe3d928d3 supplies text-free row-level detector labels and gray-band flags for the 800 hard-question runs. It permits count and interval recomputation but cannot independently verify the original response texts or cue matching. The archived result rows contain model IDs, conditions, questions, final output labels, and raw answer payloads. They do not contain verified per-run timestamps or endpoint snapshot hashes. File modification times are not treated as collection-time evidence.
+The public derived-outcome repository at https://github.com/Snow7-G/pressure-paper-outcomes/tree/cede7d41d1310d9c4ae7fe867b7d705fe3d928d3 originally supplied text-free row-level detector labels and gray-band flags for the 800 hard-question runs. The release package added at commit 5ef4eac further provides the response texts of all 1,440 hard out-of-knowledge-base runs in both domains, the complete experiment and judge code, and the adjudication records, so that cue matching and the form categories can now be re-run and inspected directly by readers against the released response texts. The archived result rows contain model IDs, conditions, questions, final output labels, and raw answer payloads. They do not contain verified per-run timestamps or endpoint snapshot hashes. File modification times are not treated as collection-time evidence.
 
 Local source checksums (SHA-256):
 
