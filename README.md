@@ -15,7 +15,7 @@ Run `python -m pip install numpy` and then `python recompute_preprint.py`. The s
 | Notebook | 18/200 | 132/300 |
 | Car maintenance | 10/120 | 93/180 |
 
-The table has no raw model responses, visible reasoning traces, user records, credentials, or verified per-run timestamps or endpoint snapshot hashes. It reproduces the reported outcome counts and bootstrap intervals, but cannot independently verify the original response texts, cue matching, or model behavior. The gray-band label is a post-collection output-form heuristic, not a human-confirmed unsupported answer. The instruction conditions ran in a fixed order and differed in answer-detail requests as well as motivational wording; these data do not identify an independent causal pressure effect.
+The table has no raw model responses, visible reasoning traces, user records, credentials, or verified per-run timestamps or endpoint snapshot hashes. It reproduces the reported outcome counts and bootstrap intervals, but cannot independently verify the original response texts, cue matching, or model behavior. The release package below adds the response texts, full experiment code, and adjudication records needed for exactly those checks. The gray-band label is a post-collection output-form heuristic, not a human-confirmed unsupported answer. The instruction conditions ran in a fixed order and differed in answer-detail requests as well as motivational wording; these data do not identify an independent causal pressure effect.
 
 ## Release package (2026-10-10)
 
