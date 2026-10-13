@@ -2,7 +2,7 @@
 
 本目录随预印本 **"Task Instructions and Grounded Refusal: Changes in Automatically
 Classified Answer Forms Across Two Knowledge-Base QA Tasks"**（Fengjia Guo,
-Tianjin Polytechnic University）发布，与仓库根目录的 `HARD-OUTCOMES.csv`、
+Tiangong University）发布，与仓库根目录的 `HARD-OUTCOMES.csv`、
 `recompute_preprint.py`、`PREPRINT-STATS.json` 共同构成完整的复现与核验材料。
 
 ## 目录结构
